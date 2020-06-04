@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addNewActivity">
+
+    <Button
+        android:id="@+id/buttonAddVehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Add Vehicle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="556dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextVehicle_id"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Vehicle ID"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="35dp" />
+
+            <EditText
+                android:id="@+id/editTextColour"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Colour"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="275dp" />
+
+            <EditText
+                android:id="@+id/editTextMake"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Make"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="75dp" />
+
+            <EditText
+                android:id="@+id/editTextTrans"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Transmission"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="355dp" />
+
+            <EditText
+                android:id="@+id/editTextPrice"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Price "
+                android:inputType="number"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="195dp" />
+
+            <EditText
+                android:id="@+id/editTextYear"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Year of Manufacture"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="155dp" />
+
+            <EditText
+                android:id="@+id/editTextNumDoors"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Number of Doors"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="315dp" />
+
+            <EditText
+                android:id="@+id/editTextCondition"
+                android:layout_width="382dp"
+                android:layout_height="43dp"
+                android:ems="10"
+                android:hint="Condition"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="552dp" />
+
+            <EditText
+                android:id="@+id/editTextMileage"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Mileage"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="395dp" />
+
+            <EditText
+                android:id="@+id/editTextNotes"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Notes"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="595dp" />
+
+            <EditText
+                android:id="@+id/editTextLicense"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="License Number"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="235dp" />
+
+            <EditText
+                android:id="@+id/editTextModel"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Model"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="115dp" />
+
+            <EditText
+                android:id="@+id/editTextEngine"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Engine Size"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="475dp" />
+
+            <EditText
+                android:id="@+id/editTextBody"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Body Style"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="515dp" />
+
+            <EditText
+                android:id="@+id/editTextFuel"
+                android:layout_width="382dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Fuel Type"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="443dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
